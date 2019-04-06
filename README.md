@@ -10,7 +10,7 @@ This was later implemented in Python by Campo (2011) and considered the followin
 7.	the chance a dead person is resurrected into a zombie
 8.	the chance a zombie is destroyed
 
-For this assignment, code was developed in Python to include a random walk in addition to the above factors, allowing distances between infected and non-infected populations to be modelled. Simulating the geographic spread of an outbreak is often considered in modelling spread of infectious diseases.  Random Walks are used in scientific modelling, for example in ecology to simulate the movement of an animal (Fagan and Calabrese 2014) and in chemistry for modelling chemical gas diffusion (Le Claire, 1958).
+For this assignment, code was developed in Python to include a random walk in addition to the above factors, allowing distances between infected and non-infected populations to be modelled. Simulating the geographic spread of an outbreak is often considered in modelling spread of infectious diseases.
 
 This report will describe code developed and simulation results in three separate sections as more complexity is added to the simulation:
 1.	The basic random walk developed to simulate the speed and movement of zombies and its impact on the infection rate of a population.
@@ -19,4 +19,5 @@ This report will describe code developed and simulation results in three separat
 
 References
 Munz, P., Hudea, I., Imad, J. and Smith, R.J., 2009. When zombies attack!: mathematical modelling of an outbreak of zombie infection. Infectious disease modelling research progress, 4, pp.133-150.
+
 Campo, C, 2011. "Modelling a Zombie Apocalypse", accessed online at http://scipy-cookbook.readthedocs.io/items/Zombie_Apocalypse_ODEINT.html  May 2018.
