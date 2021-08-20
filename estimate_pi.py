@@ -22,8 +22,8 @@ inside_circle, outside_circle = 0, 0
 
 for i in range(0, number_of_tests):
     rand_point = np.array([random.uniform(0, 1), random.uniform(0, 1)])
-    point_dist = np.array([0.5, 0.5])
-    dist = np.linalg.norm(rand_point - point_dist)
+    point_centre = np.array([0.5, 0.5])
+    dist = np.linalg.norm(rand_point - point_centre)
     if dist < 0.5:
         inside_circle += 1
     else:
